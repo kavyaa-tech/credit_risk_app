@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pydantic
+sqlalchemy
+joblib
+streamlit
+requests
+scikit-learn
+pandas
