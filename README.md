@@ -34,7 +34,7 @@ credit-risk-app/
 
 Install all dependencies:
 
-```bash
+bash
 pip install -r requirements.txt
 
 🏋️‍♂️ Training the Model
@@ -44,7 +44,7 @@ python train_model.py
 
 This uses credit_risk_dataset.csv, applies preprocessing, trains a model, and saves it as model.pkl.
 
-🚀 Running the App
+Running the App
 1. Start Backend (FastAPI)
 cd backend
 uvicorn main:app --reload
@@ -77,21 +77,21 @@ Response:
   "prediction": "Low Risk"
 }
 
-📊 Database
+Database
 Predictions are saved into a local SQLite database (credit_risk.db) with timestamp and input values.
 
 You can find DB logic in backend/db.py.
 
 
-🧠 Model Details
+Model Details
 Trained with scikit-learn
 
 Features encoded manually to match production input
 
 Trained on structured credit data
 
-📄 License
+License
 MIT License © 2025
 
-👨‍💻 Author
+Author
 Built by Kavya. Contributions welcome!
